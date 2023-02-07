@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>browserCode</title>
+    <link rel="stylesheet" href="./style/main.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="btn-wrapper">
+        <button class="clr" onclick="clr()" id="clr">clear</button>
+        <button class="save" onclick="save()" id="save">save</button>
+      </div>
+      <div class="container">
+        <div class="html">
+          <div class="div1">
+            <h3>html</h3>
+            <textarea name="" onkeyup="html()" id="htmlA"></textarea>
+          </div>
+          <div class="div3">
+            <h3>css</h3>
+            <textarea name="" onkeyup="styleCss()" id="styleA"> </textarea>
+          </div>
+          <div class="div4">
+            <h3>js</h3>
+            <textarea name="" onkeyup="script()" id="scriptA"> </textarea>
+          </div>
+        </div>
+
+        <div id="div2" class="div2"></div>
+        <style id="style"></style>
+        <script id="script"></script>
+      </div>
+    </div>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
